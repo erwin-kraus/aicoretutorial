@@ -1,4 +1,5 @@
 import os
+import pyarrow
 import pandas as pd
 
 # Variables
