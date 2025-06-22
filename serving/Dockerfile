@@ -1,7 +1,7 @@
 # Base layer (default dependencies) to use
 # You should find more base layers at https://hub.docker.com
 FROM python:3.12
-ENV LANG C.UTF-8
+ENV LANG=C.UTF-8
 
 # Custom location to place code files
 RUN mkdir -p /app/src
